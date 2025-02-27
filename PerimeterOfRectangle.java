@@ -13,6 +13,5 @@ public class PerimeterOfRectangle{
         double width = scanner.nextDouble();
         double perimeter = calculatePerimeter(length, width);
         System.out.println("The perimeter of the rectangle with length " + length + " and width " + width + " is: " + perimeter);
-        scanner.close();
     }
 }
