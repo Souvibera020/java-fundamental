@@ -12,6 +12,5 @@ public class CircleAreaCalculator {
         double radius = scanner.nextDouble();
         double area = calculateArea(radius);
         System.out.println("The area of the circle with radius " + radius + " is: " + area);
-        scanner.close();
     }
 }
