@@ -15,6 +15,5 @@ public class SimpleInterestCalculator{
         double time = scanner.nextDouble();
         double simpleInterest = calculateSimpleInterest(principal, rate, time);
         System.out.println("The simple interest for the given values is: " + simpleInterest);
-        scanner.close();
     }
 }
