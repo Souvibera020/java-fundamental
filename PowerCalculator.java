@@ -10,6 +10,5 @@ public class PowerCalculator{
         double exponent = scanner.nextDouble();
         double result = Math.pow(base, exponent);
         System.out.println(base + " raised to the power of " + exponent + " is: " + result);
-        scanner.close();
     }
 }
